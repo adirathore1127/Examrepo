@@ -5,7 +5,7 @@ const mysql = require('mysql')
 const appforlogin = express.Router();
 
 const db = mysql.createConnection({
-host : '',
+host : 'localhost',
 user : 'root',
 password : 'manager',
 database : 'examdb' 
